@@ -16,7 +16,7 @@ const port = process.env.PORT;
 
 app.use(bodyParser.json());
 app.use(cors({
-  origin: 'https://bbms-client.vercel.app',
+  origin: ['http://localhost:5173', 'https://bbms-client.vercel.app'],
   credentials: true,
 }));
 
