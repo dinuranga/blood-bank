@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A centralized blood bank management system to help manage blood donations efficiently.",
   "main": "index.js",
   "type": "module",
   "scripts": {
