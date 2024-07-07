@@ -6,7 +6,7 @@ import bloodRequestRouter from './routes/bloodRequestRoutes.js'
 import authRouter from './routes/authRoutes.js'
 import userRouter from './routes/userRoutes.js'
 import bloodStockRouter from './routes/bloodStockRoutes.js'
-import sendMail from './routes/sendMailRoutes.js'
+// import sendMail from './routes/sendMailRoutes.js'
 import cookieParser from 'cookie-parser'
 import dotenv from 'dotenv'
 dotenv.config();
@@ -26,7 +26,7 @@ app.use('/bloodRequest', bloodRequestRouter);
 app.use('/auth', authRouter);
 app.use('/users', userRouter);
 app.use('/bloodStock', bloodStockRouter);
-app.use('/mail', sendMail);
+// app.use('/mail', sendMail);
 
 app.listen(port, () => {
   console.log(`Server running on port http://localhost:${port}`);
